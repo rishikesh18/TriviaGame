@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-size: 30px;
+    background: cadetblue;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color: greenyellow;
+}
+
+#starting {
+    position: relative;
+    top: 150px;
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+}
+
+#submit {
+    margin-right: 5px;
+    margin-left: 5px;
+   
+}
+
+#startgame {
+    background-color: rgb(123, 255, 0);
+    color: rgb(137, 24, 189);
+    font-style: italic;
+    font-weight: bold;
+}
+
+#timecount {
+    color: navy;
+    border: 3px solid springgreen;
+   
+}
+
+#ques {
+    clear: both;
+    width: auto;
+    align-self: center;
+}
+
+#question {
+    color: blue;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+#group2 {
+    background-color: aqua;
+}
+
+#radio1, #radio2, #radio3, #radio4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game By Rishikesh</title>
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+  <!-- Added a link to Bootstrap--> 
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
+
+<body>
+
+    <div class="container" id="firstpage">
+        <h1>Trivia Game</h1>
+        <h2>Test your knowledge</h2>
+        <p id="starting"> Click<span id="submit"></span><button id="startgame">here</button><span id="submit"></span>to start</p>
+
+    </div>
+
+    <div class="container" id="secondpage">
+    <div>
+        <row id="timecounter">
+            <div class="col-md-4 col-md-offset-4" >
+               <div "id = timecount">
+                <p>Time left:</p>            
+                <p id="timeleft">0:00</p>
+                </div>              
+            </div>
+
+        </row>
+    </div>
+        <div id="ques">
+            <p id="question">What is the first day of year?</p>
+            <fieldset id="group2">
+                    <input type="button" value="" name="group2" id="radio1" ></br>
+                    <input type="button" value="" name="group2" id="radio2"></br>
+                    <input type="button" value="" name="group2" id="radio3"></br>
+                    <input type="button" value="" name="group2" id="radio4">
+                </fieldset>
+        </div>
+    </br>
+        <span id="check"></span>
+    </div>
+
+    <div class="container" id="thirdpage">
+
+    </div>
+
+    <div id="target"></div>
+    <div id="resultpage">
+            <div id="replay"></div>
+    </div>
+    
+
+
+  
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
