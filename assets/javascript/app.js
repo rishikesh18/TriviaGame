@@ -10,13 +10,13 @@
         {"question":"When was America founded?",
             "correct":"1776" ,
             "option":["1676","1776","1876","1576"], "userselected":""},
-        {"question":"Shristee is?",
-            "correct":"Naughty" ,
-            "option":["Naughty","Stupid","Bad","Silly"], "userselected":""},
-        {"question":"What is the name of highest peak of the world?",
+        {"question":"2 + 2 / 2 = ?",
+            "correct":"3" ,
+            "option":["1","2","3","4"], "userselected":""},
+       {"question":"What is the name of highest peak of the world?",
             "correct":"Mt. Everest" ,
             "option":["Mt. Annapurn","Mt. Alaska","Mt. Everest","Mt. k2"], "userselected":""},
-        {"question":"In which coubtry does the highest peak of the world lies?",
+        {"question":"In which country does the highest peak of the world lies?",
             "correct":"Nepal" ,
             "option":["India","Nepal","China","Pakistan"], "userselected":""},
         {"question":"Gautam Buddha, known as light of Asia, was born in Lumbini. Lumbini les in:?",
@@ -33,10 +33,10 @@
             "option":["January","February","March","April"], "userselected":""},
         {"question":"Which of the following best describe the Hindu religion?",
             "correct":"Humanity" ,
-            "option":["Humanity","Animal Sacrifice","War","Peace"], "userselected":""}, 
+            "option":["Humanity","Animal Sacrifice","War","Peace"], "userselected":""},
         {"question":"What is the independence day of US?",
             "correct":"July 4" ,
-            "option":["Jun 4","July 4","Jun 14","July 14"],"userselected":""} ];
+            "option":["Jun 4","July 4","Jun 14","July 14"],"userselected":""} ]; 
 
 
         $("#startgame").click(function() {
@@ -153,7 +153,7 @@
             }
         }
     function timer(){
-        var timer2 = "1:30";
+        var timer2 = "1:00";
     var interval = setInterval(function() {
 
 
