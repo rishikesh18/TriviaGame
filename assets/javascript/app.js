@@ -2,9 +2,9 @@
     
     var index=0;
     var quiz = [
-        {"question":"What is the highest point in earth?",
+        {"question":"What is the highest point in earth ?",
             "correct":"8848m" ,
-            "option":["7848m", "8848m", "7488m", "8488m"], "userselected":""},
+            "option":["8848m", "8448m", "8488m", "8888m"], "userselected":""},
         {"question":"When was first flight took place?",
             "correct":"1903" ,
             "option":["1603","1703","1803","1903"], "userselected":""},
