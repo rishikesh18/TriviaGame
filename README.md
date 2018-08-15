@@ -12,4 +12,4 @@ At the end, user can see how many he answerd correctly and get option to play ag
 #Technology Used
 HTML, CSS, Bootstrap, JavaScript
 
-Link: https://rishikesh18.github.io/week-4-game/
+Link: https://rishikesh18.github.io/TriviaGame/
